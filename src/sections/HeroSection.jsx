@@ -7,7 +7,7 @@ const HeroSection = () => {
             <div className="absolute inset-0 bg-[url('./assets/hero-img.jpg')] bg-cover bg-center bg-no-repeat"></div>
 
             {/* Capa de blur */}
-            <div className="absolute inset-0 bg-gray-950/50 z-10"></div>
+            <div className="absolute inset-0 bg-linear-to-b from-transparent to-gray-950/80 z-10"></div>
 
             {/* Contenido */}
             <div className="relative z-20 flex flex-col items-center justify-center h-full w-full">
