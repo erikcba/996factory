@@ -4,7 +4,7 @@ import video from '../assets/hero-mobile.mp4'
 
 const HeroSection = () => {
     return (
-        <section className="relative h-screen overflow-hidden sm:pt-0 pt-20">
+        <section id='hero' className="relative h-screen overflow-hidden sm:pt-0 pt-20">
             {/* Fondo (imagen) */}
             <video
                 className="absolute inset-0 w-full h-full object-cover sm:hidden"
@@ -30,9 +30,9 @@ const HeroSection = () => {
                         <button className='border-2 border-white w-1/2 sm:w-auto px-2 sm:px-5 py-2 rounded-sm text-gray-200 font-medium text-lg hover:cursor-pointer hover:bg-stone-100 hover:text-stone-800 shadow-md hover:shadow-stone-600/50 transition-all ease-in-out'>
                             Ver trabajos
                         </button>
-                        <button className='bg-rose-600 border-2 w-1/2 sm:w-auto border-rose-600  px-5 py-2 rounded-sm text-gray-200 font-bold text-lg hover:cursor-pointer hover:bg-rose-500 hover:border-rose-500 shadow-md hover:shadow-rose-600/50 transition-all ease-in-out'>
+                        <a href='#form' className='bg-rose-600 border-2 w-1/2 sm:w-auto border-rose-600  px-5 py-2 rounded-sm text-gray-200 font-bold text-lg hover:cursor-pointer hover:bg-rose-500 hover:border-rose-500 shadow-md hover:shadow-rose-600/50 transition-all ease-in-out'>
                             Contactanos
-                        </button>
+                        </a>
                     </div>
                 </div>
             </div>
