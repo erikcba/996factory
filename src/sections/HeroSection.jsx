@@ -20,9 +20,9 @@ const HeroSection = () => {
             <div className="absolute inset-0  bg-gray-950/70 z-10"></div>
 
             {/* Contenido */}
-            <div className="relative z-10 flex flex-col items-center justify-center h-full w-full px-3 sm:px-0">
+            <div className="relative z-10 flex flex-col items-center justify-center h-full w-full px-5 sm:px-0">
                 <div className='w-full sm:w-3/4 mx-auto text-center'>
-                    <img className='mx-auto w-3/4 sm:w-full ' src={logo} alt="" />
+                    <img className='sm:mx-auto mr-auto w-3/4 sm:w-1/4 ' src={logo} alt="" />
                     <p className='text-gray-200 sm:text-center text-left text-2xl font-medium w-full sm:w-2/3 mx-auto mt-4'>
                         Diseñamos y fabricamos componentes a medida para motocicletas de competición que maximizan el rendimiento y la fiabilidad.
                     </p>
