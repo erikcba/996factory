@@ -27,9 +27,9 @@ const HeroSection = () => {
                         Diseñamos y fabricamos componentes a medida para motocicletas de competición que maximizan el rendimiento y la fiabilidad.
                     </p>
                     <div className='flex flex-col sm:flex-row gap-4 sm:items-center sm:justify-center items-start justify-start mt-8 w-full'>
-                        <button className='border-2 border-white w-1/2 sm:w-auto px-2 sm:px-5 py-2 rounded-sm text-gray-200 font-medium text-lg hover:cursor-pointer hover:bg-stone-100 hover:text-stone-800 shadow-md hover:shadow-stone-600/50 transition-all ease-in-out'>
-                            Ver trabajos
-                        </button>
+                        <a href='#servicios' className='border-2 border-white w-1/2 sm:w-auto px-2 sm:px-5 py-2 rounded-sm text-gray-200 font-medium text-lg hover:cursor-pointer hover:bg-stone-100 hover:text-stone-800 shadow-md hover:shadow-stone-600/50 transition-all ease-in-out'>
+                            Ver servicios
+                        </a>
                         <a href='#form' className='bg-rose-600 border-2 w-1/2 sm:w-auto border-rose-600  px-5 py-2 rounded-sm text-gray-200 font-bold text-lg hover:cursor-pointer hover:bg-rose-500 hover:border-rose-500 shadow-md hover:shadow-rose-600/50 transition-all ease-in-out'>
                             Contactanos
                         </a>

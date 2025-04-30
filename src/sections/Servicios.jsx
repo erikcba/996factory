@@ -8,7 +8,7 @@ import mantenimiento from "../assets/mantenimiento.JPG"
 
 const Servicios = () => {
   return (
-    <section className='bg-zinc-950 sm:py-32 py-10 px-5 sm:px-0 '>
+    <section id='servicios' className='bg-zinc-950 sm:py-32 py-10 px-5 sm:px-0 '>
         <div className='flex flex-col justify-center items-center container mx-auto gap-10 sm:gap-12'>
             <h1 className='text-3xl sm:text-5xl font-semibold text-center text-gray-200 uppercase '>
                 Nuestros productos 

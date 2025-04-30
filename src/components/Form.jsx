@@ -66,7 +66,7 @@ const Form = () => {
     }
 
     return (
-        <div className=' grid grid-cols-1 gap-5 py-10 px-5'>
+        <div className=' grid grid-cols-1 sm:grid-cols-2 gap-5 py-10 px-5'>
             <div className='flex flex-col gap-2'>
                 <label className='text-gray-200 font-medium text-xl'>Nombre</label>
                 <input
@@ -122,7 +122,7 @@ const Form = () => {
             {successMessage && (
                 <p className='text-rose-600 font-bold text-center'>{successMessage}</p>
             )}
-            <button onClick={handleSubmit} type="submit" className='bg-rose-600 px-5 py-2 rounded-sm text-gray-200 font-medium text-md md:text-lg hover:cursor-pointer hover:bg-rose-500 shadow-md hover:shadow-rose-600/50'>Enviar</button>
+            <button onClick={handleSubmit} type="submit" className='bg-rose-600 sm:col-span-2 px-5 py-2 mt-4 rounded-sm text-gray-200 font-medium text-md md:text-lg hover:cursor-pointer hover:bg-rose-500 shadow-md hover:shadow-rose-600/50'>Enviar</button>
         </div>
     )
 }
