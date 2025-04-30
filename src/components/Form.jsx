@@ -68,7 +68,7 @@ const Form = () => {
     return (
         <div className=' grid grid-cols-1 gap-5 py-10 px-5'>
             <div className='flex flex-col gap-2'>
-                <label className='text-gray-200 font-medium'>Nombre</label>
+                <label className='text-gray-200 font-medium text-xl'>Nombre</label>
                 <input
                     type="text"
                     name="nombre"
@@ -76,12 +76,12 @@ const Form = () => {
                     onChange={handleChange}
                     placeholder=''
                     required
-                    className='bg-zinc-700 border-1 border-zinc-500 rounded-md px-2 py-1 w-full focus:outline-rose-600 text-gray-200 font-medium'
+                    className='bg-zinc-700 border-1 border-zinc-500 rounded-md px-2 py-2 w-full focus:outline-rose-600 text-gray-200 font-medium text-xl leading-0 '
                 />
                 {errors.nombre && <p style={{ color: 'red' }}>{errors.nombre}</p>}
             </div>
             <div className='flex flex-col gap-2'>
-                <label className='text-gray-200 font-medium'>Apellido</label>
+                <label className='text-gray-200 font-medium text-xl'>Apellido</label>
                 <input
                     type="text"
                     name="apellido"
@@ -89,12 +89,12 @@ const Form = () => {
                     onChange={handleChange}
                     placeholder=''
                     required
-                    className='bg-zinc-700 border-1 border-zinc-500 rounded-md px-2 py-1 w-full focus:outline-rose-600 text-gray-200 font-medium'
+                    className='bg-zinc-700 border-1 border-zinc-500 rounded-md px-2 py-2 w-full focus:outline-rose-600 text-gray-200 font-medium text-xl leading-0 '
                 />
                 {errors.apellido && <p style={{ color: 'red' }}>{errors.apellido}</p>}
             </div>
             <div className='flex flex-col gap-2'>
-                <label className='text-gray-200 font-medium'>Teléfono</label>
+                <label className='text-gray-200 font-medium text-xl'>Teléfono</label>
                 <input
                     type="tel"
                     name="telefono"
@@ -102,12 +102,12 @@ const Form = () => {
                     onChange={handleChange}
                     placeholder=''
                     required
-                    className='bg-zinc-700 border-1 border-zinc-500 rounded-md px-2 py-1 w-full focus:outline-rose-600 text-gray-200 font-medium'
+                    className='bg-zinc-700 border-1 border-zinc-500 rounded-md px-2 py-2 w-full focus:outline-rose-600 text-gray-200 font-medium text-xl leading-0 '
                 />
                 {errors.telefono && <p style={{ color: 'red' }}>{errors.telefono}</p>}
             </div>
             <div className='flex flex-col gap-2'>
-                <label className='text-gray-200 font-medium'>Email</label>
+                <label className='text-gray-200 font-medium text-xl'>Email</label>
                 <input
                     type="email"
                     name="email"
@@ -115,7 +115,7 @@ const Form = () => {
                     onChange={handleChange}
                     placeholder=''
                     required
-                    className='bg-zinc-700 border-1 border-zinc-500 rounded-md px-2 py-1 w-full focus:outline-rose-600 text-gray-200 font-medium'
+                    className='bg-zinc-700 border-1 border-zinc-500 rounded-md px-2 py-2 w-full focus:outline-rose-600 text-gray-200 font-medium text-xl leading-0 '
                 />
                 {errors.email && <p style={{ color: 'red' }}>{errors.email}</p>}
             </div>
