@@ -2,8 +2,8 @@ import React from 'react'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
-import img1 from '../assets/img1.jpg'
-import img2 from '../assets/img2.jpg'
+import img1 from '../assets/img1.JPG'
+import img2 from '../assets/img2.JPG'
 import img3 from '../assets/img3.jpeg'
 import img4 from '../assets/img4.jpeg'
 import img5 from '../assets/img5.jpeg'
