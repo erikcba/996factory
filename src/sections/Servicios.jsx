@@ -3,9 +3,9 @@ import ServiciosCard from '../components/ServiciosCard'
 
 const Servicios = () => {
   return (
-    <section id='servicios' className='bg-zinc-950 sm:py-32 py-10 px-5 sm:px-0 '>
+    <section id='servicios' className='bg-zinc-950 sm:py-20 py-10 px-5 sm:px-0 '>
         <div className='flex flex-col justify-center items-center container mx-auto gap-10 sm:gap-12'>
-            <h1 className='text-3xl sm:text-5xl font-semibold text-center pb-10 text-gray-200 uppercase '>
+            <h1 className='text-3xl sm:text-5xl font-semibold text-center py-10 text-gray-200 uppercase '>
                 Nuestros productos 
             </h1>
             <div className='grid grid-cols-1 sm:grid-cols-5 gap-10 sm:gap-4'>

@@ -1,4 +1,5 @@
 import './App.css'
+import LogosBanner from './components/LogosBanner'
 import Navbar from './components/Navbar'
 import FormSection from './sections/FormSection'
 import GaleriaSection from './sections/GaleriaSection'
@@ -15,6 +16,7 @@ function App() {
       <HeroSection/>
       <Servicios/>
       <GaleriaSection/>
+      <LogosBanner/>
       <FormSection/>
     </>
   )
