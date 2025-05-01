@@ -5,3 +5,38 @@
     font-family: 'Barlow', sans-serif;
     scroll-behavior: smooth;
 }
+
+.bg-card-1 {
+    background-image: url("./assets/escapes.jpeg") ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.bg-card-2 {
+    background-image: url("./assets/fibraCarbono.JPG") ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.bg-card-3 {
+    background-image: url("./assets/metalmecanica.JPG");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.bg-card-4 {
+    background-image: url("./assets/ecu.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.bg-card-5 {
+    background-image: url("./assets/mantenimiento.JPG");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}

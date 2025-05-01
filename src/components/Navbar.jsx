@@ -3,9 +3,9 @@ import logo from '../assets/996factory-logo2.png'
 
 const Navbar = () => {
     return (
-        <nav className='w-full bg-zinc-950 h-24 shadow-md fixed top-0 z-20'>
+        <nav className='w-full bg-zinc-950 h-24 shadow-md fixed top-0 z-40'>
             <div className='flex flex-row justify-around items-center h-full'>
-                <a href="#hero" className='w-1/4'>
+                <a href="#hero" className='w-1/4 sm:w-1/12 xl:w-32'>
                     <img className='  ' src={logo} alt="" />
                 </a>
                 <ul className='text-gray-300 hidden sm:flex flex-row gap-5 font-medium text-lg'>
