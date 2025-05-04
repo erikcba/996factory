@@ -9,10 +9,9 @@ const Navbar = () => {
                     <img className='  ' src={logo} alt="" />
                 </a>
                 <ul className='text-gray-300 hidden sm:flex flex-row gap-5 font-medium text-lg'>
-                    <a className='hover:text-gray-100 transition-all ease-in-out hover:scale-105 hover:cursor-pointer' href="">Trabajos</a>
-                    <a className='hover:text-gray-100 transition-all ease-in-out hover:scale-105 hover:cursor-pointer' href="">Galeria</a>
-                    <a className='hover:text-gray-100 transition-all ease-in-out hover:scale-105 hover:cursor-pointer' href="">Sobre nosotros</a>
-                    <a className='hover:text-gray-100 transition-all ease-in-out hover:scale-105 hover:cursor-pointer' href="">Contacto</a>
+                    <a className='hover:text-gray-100 transition-all ease-in-out hover:scale-105 hover:cursor-pointer' href="#servicios">Servicios</a>
+                    <a className='hover:text-gray-100 transition-all ease-in-out hover:scale-105 hover:cursor-pointer' href="#galeria">Galeria</a>
+                    <a className='hover:text-gray-100 transition-all ease-in-out hover:scale-105 hover:cursor-pointer' href="#form">Contacto</a>
                 </ul>
                 <a href="#form" className='bg-rose-600 px-5 py-2 rounded-sm text-gray-200 font-semibold text-md md:text-lg hover:cursor-pointer hover:bg-rose-500 shadow-md hover:shadow-rose-600/50'>
                     Contactanos
